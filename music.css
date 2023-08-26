@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: antiquewhite;
+}
+nav {
+    font-family: 'Dancing script',cursive;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    align-items: center;
+    background:black;
+    color: white;
+}
+nav ul li {
+    padding: 0  12px;
+}
+.br{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.br img{
+    width: 90px;
+    padding: 0 8px;
+}
+.bottom {
+    position: sticky;
+    height: 90px;
+    background: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain{
+    min-height: 80vh;
+}
+#myProgressBar{
+    width: 80vw;
+
+}
